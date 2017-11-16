@@ -1,0 +1,16 @@
+<!DOCTYPE html >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<?php
+
+$_SESSION["username"]="";
+	$_SESSION["usertype"]="";
+		$_SESSION['loginstatus']="";
+		header("location:admimlogin.php");
+?>
+</body>
+</html>
